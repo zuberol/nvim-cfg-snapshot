@@ -60,6 +60,8 @@ File: lua/zeauberg/tabline.lua
 Renders tab names and when there is a git root directory in the upper working directory, renders and highlights the 'git root directory' using appropriate highlight.
 It call the 'git' cli under the hood.
 
+![tabline implementation](doc/tabline.png)
+
 ## Feature: Detach window
 
 File: plugin/detach.lua
@@ -69,3 +71,12 @@ It allows to detach the arbitrary nvim window and make it a floating one. The fl
 ## Feature: ':LsBuffers' ':LsWindows'
 
 A set of util commands useful for debugging UI. Shows the windows/buffers metadata.
+
+
+## Feature: custom dsl language syntax highlighting
+
+repository: https://github.com/zuberol/chaos.nvim
+
+Regex style syntax highlighting using builtin vim functionality.
+
+![syntax highlighting](doc/syntax-highlighting.png)
