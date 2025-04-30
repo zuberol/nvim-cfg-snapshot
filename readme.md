@@ -72,7 +72,6 @@ It allows to detach the arbitrary nvim window and make it a floating one. The fl
 
 A set of util commands useful for debugging UI. Shows the windows/buffers metadata.
 
-
 ## Feature: custom dsl language syntax highlighting
 
 repository: https://github.com/zuberol/chaos.nvim
@@ -80,3 +79,10 @@ repository: https://github.com/zuberol/chaos.nvim
 Regex style syntax highlighting using builtin vim functionality.
 
 ![syntax highlighting](doc/syntax-highlighting.png)
+
+
+## Feature: buffer navigation plugin
+
+directory: plugin/snipes.nvim
+
+Allows to switch marked files. It persists the added files and restores them on next nvim startup.
