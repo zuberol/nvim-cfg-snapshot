@@ -83,6 +83,6 @@ Regex style syntax highlighting using builtin vim functionality.
 
 ## Feature: buffer navigation plugin
 
-directory: plugin/snipes.nvim
+file: plugin/snipes.nvim
 
 Allows to switch marked files. It persists the added files and restores them on next nvim startup.
